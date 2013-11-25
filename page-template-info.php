@@ -14,11 +14,11 @@
  * @wordpress-plugin
  * Plugin Name:       Page Template Info
  * Plugin URI:        http://github.com/tommcfarlin/page-template-info/
- * Description:       Get a quick glace of the templates your pages are using on the 'All Pages' dashboard page.
+ * Description:       Get a quick glance of the templates your pages are using on the 'All Pages' dashboard page.
  * Version:           0.1.0
  * Author:            Tom McFarlin
  * Author URI:        http://tommcfarlin.com
- * Text Domain:       ptl
+ * Text Domain:       page-template-info
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages

@@ -10,7 +10,7 @@
  */
 
 /**
- * @package TODO
+ * @package PTL
  * @author  Tom McFarlin <tom@tommcfarlin.com>
  */
 class Page_Template_Info {
@@ -89,7 +89,7 @@ class Page_Template_Info {
 	} // end enqueue_admin_scripts
 
 	/**
-	 * TODO
+	 * Echos the name of the template file back to the client.
 	 *
 	 * @since    0.1.0
 	 */
@@ -105,10 +105,10 @@ class Page_Template_Info {
 	} // end get_page_template
 
 	/**
-	 * TODO
+	 * Retrieves teh path to the page's template as identified by the incoming ID.
 	 *
-	 * @param    number    $page_id    TODO
-	 * @return   string                TODO
+	 * @param    number    $page_id    The ID of the page for which we're retrieving the template.
+	 * @return   string                The path to the page's template.
 	 * @since    0.1.0
 	 */
 	private function get_template( $page_id ) {
@@ -120,10 +120,10 @@ class Page_Template_Info {
 	} // end get_template
 
 	/**
-	 * TODO
+	 * Retrieves the name of the template based on the path of the incoming file.
 	 *
-	 * @param    string    $template_file    TODO
-	 * @return   string    $template_name    TODO
+	 * @param    string    $template_file    The path to the template file.
+	 * @return   string    $template_name    The name of the template.
 	 * @since    0.1.0
 	 */
 	private function get_template_name( $template_file ) {

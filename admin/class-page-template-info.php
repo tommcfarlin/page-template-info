@@ -22,7 +22,7 @@ class Page_Template_Info {
 	 *
 	 * @var      string
 	 */
-	const VERSION = '0.1.0';
+	const VERSION = '0.2.0';
 
 	/**
 	 * Instance of this class.
@@ -115,7 +115,7 @@ class Page_Template_Info {
 
 		$template_file = get_post_meta( $page_id, '_wp_page_template', true );
 
-		return trailingslashit( get_template_directory() ) . $template_file;
+		return trailingslashit( get_stylesheet_directory() ) . $template_file;
 
 	} // end get_template
 

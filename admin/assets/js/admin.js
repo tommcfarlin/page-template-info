@@ -26,7 +26,6 @@
 					if ( 'success' === response.toLowerCase() && 0 < $.trim( data ).length ) {
 
 						// ...Then let's write it out to the client side
-						console.log( '#post-' + iPageId );
 						$('#post-' + iPageId )
 							.children( '.page-title' )
 							.children( 'strong' )

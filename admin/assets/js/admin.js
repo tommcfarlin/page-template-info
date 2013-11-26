@@ -3,7 +3,7 @@
 
 	$(function () {
 
-		var $currentRow, $page, iPageId;
+		var $currentRow, $page;
 
 		// For each of the table rows...
 		$('tr').each(function() {
@@ -12,7 +12,7 @@
 			if( undefined !== ( $page = $(this).attr('id') ) && 0 === $page.indexOf( 'post-' ) ) {
 
 				// If so, find the page ID
-				iPageId = $page.match( /\d+/g );
+				var iPageId = $page.match( /\d+/g );
 
 				// Now request name of the page template from the server
 				$.get( ajaxurl, {
@@ -26,6 +26,7 @@
 					if ( 'success' === response.toLowerCase() && 0 < $.trim( data ).length ) {
 
 						// ...Then let's write it out to the client side
+						console.log( '#post-' + iPageId );
 						$('#post-' + iPageId )
 							.children( '.page-title' )
 							.children( 'strong' )

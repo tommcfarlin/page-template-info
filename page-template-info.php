@@ -15,7 +15,7 @@
  * Plugin Name:       Page Template Info
  * Plugin URI:        http://github.com/tommcfarlin/page-template-info/
  * Description:       Get a quick glance of the templates your pages are using on the 'All Pages' dashboard page.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Author:            Tom McFarlin
  * Author URI:        http://tommcfarlin.com
  * Text Domain:       page-template-info

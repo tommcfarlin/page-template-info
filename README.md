@@ -29,6 +29,10 @@ the name of the template assigned to a specific page in the 'All Pages' dashboar
 2. Upload the `page-template-info` directory to your `wp-content/plugins` directory
 3. Activate the plugin on the WordPress Plugins Dashboard
 
+## Updates
+
+This plugin supports the [GitHub Updater](https://github.com/afragen/github-updater) plugin, so if you install that, this plugin becomes automatically updateable direct from GitHub.
+
 ## Screenshots
 
 ![Page Template Info](./assets/screenshot-1.png "Page Template Info")

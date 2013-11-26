@@ -3,7 +3,7 @@
 * Contributors: tommcfarlin
 * Requires at least: 3.7.0
 * Tested up to: 3.8-beta-1
-* Stable tag: 0.1.0
+* Stable tag: 0.2.0
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,13 @@ the name of the template assigned to a specific page in the 'All Pages' dashboar
 ![Page Template Info](./assets/screenshot-1.png "Page Template Info")
 
 ## Changelog
+
+### 0.2.0 (26 November 2013)
+
+* Documented all previously undocumented functions
+* Added child theme compatibility
+* Template names now display under each page (rather than the very last page)
+* Fix typo and text domain (@GaryJones)
 
 ### 0.1.0 (22 November 2013)
 

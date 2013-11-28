@@ -10,7 +10,6 @@
  */
 
 /**
- * @package PTL
  * @package Page_Template_Info
  * @author  Tom McFarlin <tom@tommcfarlin.com>
  */

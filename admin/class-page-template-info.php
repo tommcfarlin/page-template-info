@@ -2,7 +2,7 @@
 /**
  * Page Template Info
  *
- * @package   PTL
+ * @package   Page_Template_Info
  * @author    Tom McFarlin <tom@tommcfarlin.com>
  * @license   GPL-2.0+
  * @link      http://tommcfarlin.com
@@ -10,7 +10,7 @@
  */
 
 /**
- * @package PTL
+ * @package Page_Template_Info
  * @author  Tom McFarlin <tom@tommcfarlin.com>
  */
 class Page_Template_Info {
@@ -105,7 +105,7 @@ class Page_Template_Info {
 	} // end get_page_template
 
 	/**
-	 * Retrieves teh path to the page's template as identified by the incoming ID.
+	 * Retrieves the path to the page's template as identified by the incoming ID.
 	 *
 	 * @param    number    $page_id    The ID of the page for which we're retrieving the template.
 	 * @return   string                The path to the page's template.
